@@ -1,0 +1,22 @@
+mkdir gitVideo
+cd gitVideo
+touch index.html app.css
+git init #this initializes emphy git reposity in my laptop
+git add . #adds entire repositoty to the pre memory
+git commit -m "add html and css file" #a note when saving things
+rm index.html
+touch app.js
+git add .
+git commit -m 'delete html and add js'
+git log #gives the hashes/when the changes were saved: to go back to a specific time point
+git checkout sdfhtegsfdjkter #we are back to the 1st saved progress (think like the old windows computer, can go back to the specific tim epoint on the calendar)
+
+git remote set-url origin https://github.com/emiliatug/git_video.git
+git remote -v
+git push -u origin master
+
+#I had to set up a fine token in order to access the directories. The 3 lines above are done, after I have created a token and give access of a specific directory to this token. User name is emiliatug, and password stats with PSA...
+
+1st command allows to say where should the files be added (specify location/mailing address)
+2nd line allows to see the current and the future (mailing) location
+3rd line: add the master file to the origin
